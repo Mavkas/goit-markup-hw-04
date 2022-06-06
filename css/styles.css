@@ -96,7 +96,19 @@ margin: 0;}
     margin-right: auto;
     
 }
-.heading{background: var(--background-color)}
+.heading{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--background-color);   /*-------new-------*/
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+     url(../images/icons.svg/heading.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .heading{
     text-align: center;
     padding-top: 200px;
@@ -140,6 +152,59 @@ letter-spacing: 0.06em;
 color:var(--secondary-color);
 } 
 /*-----------Work-------------*/
+.antena::before{
+    margin-bottom: 30px;
+    display: flex;
+    padding: 25px 100px;
+    content: "";
+    background-image: url(../images/icons.svg/Vector\ \(1\).svg);
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    height:120px;
+    background-color: var(--background-light-color) ;
+    border-radius: 4px;
+}
+.clock::before{
+    margin-bottom: 30px;
+    display: flex;
+    padding: 25px 100px;
+    content: "";
+    background-image: url(../images/icons.svg/clock.svg);
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    height:120px;
+    background-color: var(--background-light-color) ;
+    border-radius: 4px;
+}
+.diagram::before{
+    margin-bottom: 30px;
+    display: flex;
+    padding: 25px 100px;
+    content: "";
+    background-image: url(../images/icons.svg/diagram.svg);
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    height:120px;
+    background-color: var(--background-light-color) ;
+    border-radius: 4px;
+}
+.astronaut::before{
+    margin-bottom: 30px;
+    display: flex;
+    padding: 25px 100px;
+    content: "";
+    background-image: url(../images/icons.svg/astronaut.svg);
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    height:120px;
+    background-color: var(--background-light-color) ;
+    border-radius: 4px;
+}
+
 
 .list-style-work{
     display: flex;
