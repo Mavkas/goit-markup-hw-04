@@ -73,7 +73,8 @@ color:var(--title-text-color); }
         color: var(--accent-color);}
 
 .list-style-auth{display: flex;
-    margin-left: auto;}
+    margin-left: auto;
+align-items: center;}
 
 .mail, .tel:not(:last-child)
 {margin-right: 50px;}
@@ -100,7 +101,7 @@ fill:currentColor;}
 .icon-phone{
 width: 16px;
 height: 12px;
-padding: 0;
+align-items: center;
 margin-right: 10px;
 border:0;
 fill:currentColor;}
