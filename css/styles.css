@@ -87,7 +87,10 @@ color: var(--primary-text-color); }
 
 .mail:hover,.mail:focus{color:var(--accent-color);}
 .tel:hover,.tel:focus{color:var(--accent-color);}
+
 .icon-letter{
+width: 16px;
+height: 12px;
 align-items: center;
 margin-right: 10px;
 border:0;
@@ -95,6 +98,8 @@ fill:currentColor;}
 .icon-letter:hover .icon-letter:focus{color: var(--accent-color);}
 
 .icon-phone{
+width: 16px;
+height: 12px;
 padding: 0;
 margin-right: 10px;
 border:0;
@@ -157,7 +162,7 @@ margin-bottom: 30px;
 display: flex;
 padding: 25px 100px;
 content: "";
-background-image: url(../images/icons.svg/Vector\ \(1\).svg);
+background-image: url(../images/icons.svg/Vector\(1\).svg);
 background-repeat: no-repeat;
 background-position: center;
 height: 120px;
@@ -198,10 +203,11 @@ height: 120px;
 background-color:var(--background-light-color) ;
 border-radius: 4px;}
 
+.work{padding-top: 94px;
+    padding-bottom: 94px;}
+
 .list-style-work{
-display: flex;
-padding-top: 94px;
-padding-bottom: 94px;}
+display: flex;}
 
 .list-style-work li:not(:last-child)
 {margin-right: 30px;}
@@ -277,6 +283,8 @@ text-align: center;
 color:var(--primary-text-color);}
 
 .team li{background-color: var(--secondary-color);
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;}
 
 .team img{
@@ -284,6 +292,98 @@ display: block;
 max-width: 100%;
 height: auto;}
 
+.social-link{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;}
+
+.social-link-item{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    fill:#AFB1B8;}
+.social-link-item:last-child{margin-right: 0;}
+.social-icon{   
+fill: currentColor;}
+.social-link-item:hover{background-color: var(--accent-color);
+fill:var(--secondary-color);}
+.social-icon:hover{fill:currentColor}
+
+/*--------------------------Clients------------*/
+.clients{
+padding-top: 94px;
+padding-bottom: 94px;}
+
+.clients h2{
+margin-bottom: 50px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color:var(--title-text-color);}
+.list-style-clients{display: flex;}
+.list-style-clients li:not(:last-child)
+{margin-right: 30px;}
+.list-style-clients li{
+width:170px;
+height:92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;}
+
+.logo1{
+display: flex;
+padding: 16px 32px;
+content: "";
+background-image: url(../images/icons.svg/Logo1.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-color:var(--secondary-color) ;}
+.logo1:hover{color: var(--accent-color);}
+.logo2{
+display: flex;
+padding: 16px 32px;
+content: "";
+background-image: url(../images/icons.svg/Logo2.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-color:var(--secondary-color) ;}
+.logo3{
+display: flex;
+padding: 16px 32px;
+content: "";
+background-image: url(../images/icons.svg/Logo3.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-color:var(--secondary-color) ;}  
+.logo4{
+display: flex;
+padding: 16px 32px;
+content: "";
+background-image: url(../images/icons.svg/Logo4.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-color:var(--secondary-color) ;}  
+.logo5{
+display: flex;
+padding: 16px 32px;
+content: "";
+background-image: url(../images/icons.svg/Logo5.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-color:var(--secondary-color) ;}
+.logo6{
+display: flex;
+padding: 16px 32px;
+content: "";
+background-image: url(../images/icons.svg/Logo6.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-color:var(--secondary-color) ;}
 /*-----------Footer---------*/
 .logo-button{
 font-family: 'Raleway';
@@ -309,7 +409,7 @@ color:var(--secondary-color);}
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height:24px;
 color: var(--link-color);}
 
 .address-tel-text{
@@ -323,6 +423,20 @@ color: var(--link-color);}
     margin-bottom: 9px;} 
 
 .address-item{margin-top: 20px;}
+.address>.container{
+    display: flex;
+    align-items: baseline;}
+.flex{max-width: 376px;
+min-height: 112px;
+margin-right: 70px;}
+.footer-slogan h2{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--secondary-color);
+margin-bottom: 20px;}
 
     /*-------------Portfolio---------*/
 .portfolio header{border-bottom: 1px solid #ECECEC;}    
